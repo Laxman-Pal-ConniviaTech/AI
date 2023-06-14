@@ -7,8 +7,19 @@ const FormComponent = styled.form`
   border-radius: 10px;
   backdrop-filter: blur(5px);
   padding: 3rem 3rem 1rem 3rem;
-  padding-bottom: 1rem ;
   margin-top: 1.5rem;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 2rem 2rem 1rem 2rem;
+    margin-top: 1.5rem;
+}
+
+
+
 `;
 
 const Group = styled.div`

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import Form from "./Form";
+import Form from "../Components/Hero/Form"
 
 
 

@@ -10,6 +10,11 @@ const List = styled.li`
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: -0.01em;
+
+    @media (max-width: 1024px) {
+   display:none;
+}
+
   `
 
 const NavLink = styled.a`
@@ -31,28 +36,28 @@ const Navbar = () => {
             <div className="menu-main-menu-container">
               <ul id="menu-main-menu" className="header__menu">
                 <List>
-                <NavLink href="/">
+                <NavLink href="/" className="nav-link">
                 Product
                 </NavLink>
                 </List>
                 <List>
-                <NavLink href="#" aria-current="page">
+                <NavLink href="#" className="nav-link">
                   How it works
                   </NavLink>
                 </List>
                 <List>
-                <NavLink href="" aria-current="page">
+                <NavLink href="" className="nav-link">
                   Features
 
                   </NavLink>
                 </List>
                 <List>
-                <NavLink href="#" aria-current="page">
+                <NavLink href="#" className="nav-link">
                   Mission
                   </NavLink>
                 </List>
                 <List>
-                <NavLink href="#" aria-current="page">
+                <NavLink href="#" className="nav-link">
                   Company
                   </NavLink>
                 </List>
